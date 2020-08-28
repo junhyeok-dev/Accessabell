@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="169dp"
+            android:layout_height="154dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bell_logo" />
+
+        <TextView
+            android:id="@+id/textviewUserEmail"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonmain"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/blue"
+            android:text="메인으로"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/blue"
+            android:text="로그아웃"
+            android:layout_margin="20dp"
+        android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textviewDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="회원탈퇴"
+            android:textColor="#ff2222" />
+
+    </LinearLayout>
+</RelativeLayout>
