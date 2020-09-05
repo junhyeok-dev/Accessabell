@@ -1,1 +1,3 @@
-TTSModule.class
+com\example\ddingdong\TTSModule.class
+com\example\ddingdong\Main.class
+com\example\ddingdong\SocketMgr.class
