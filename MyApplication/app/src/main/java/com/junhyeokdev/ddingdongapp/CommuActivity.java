@@ -1,10 +1,9 @@
-package com.example.myapplication;
+package com.junhyeokdev.ddingdongapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -24,7 +23,7 @@ public class CommuActivity extends AppCompatActivity {
         txtTts = findViewById(R.id.tts);
         txtStt = findViewById(R.id.stt);
 
-        final SocketMgr socketMgr = new SocketMgr("192.168.1.153", 2723, this);
+        final SocketMgr socketMgr = new SocketMgr("192.168.1.190", 2723, this);
         socketMgr.start();
 
         Button imageButton = (Button) findViewById(R.id.buttoncommu);

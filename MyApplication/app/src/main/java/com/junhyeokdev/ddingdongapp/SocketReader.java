@@ -1,6 +1,5 @@
-package com.example.myapplication;
+package com.junhyeokdev.ddingdongapp;
 
-import android.app.Activity;
 import android.util.Log;
 
 import java.io.IOException;

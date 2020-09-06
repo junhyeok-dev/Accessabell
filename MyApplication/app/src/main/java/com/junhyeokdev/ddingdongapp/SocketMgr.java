@@ -1,11 +1,8 @@
-package com.example.myapplication;
+package com.junhyeokdev.ddingdongapp;
 
-import android.app.Activity;
-import android.os.StrictMode;
 import android.util.Log;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 

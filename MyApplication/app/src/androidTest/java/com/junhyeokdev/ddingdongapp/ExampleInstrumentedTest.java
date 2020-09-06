@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.junhyeokdev.ddingdongapp;
 
 import android.content.Context;
 
