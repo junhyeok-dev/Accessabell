@@ -69,6 +69,8 @@ public class SocketMgr extends Thread {
 
                     System.out.println(Arrays.toString(audiodat));
 
+                    mic.close();
+
                     SpeechClient speechClient = SpeechClient.create();
                     byte[] audioByte = out.toByteArray();
                     ByteString audioBytes = ByteString.copyFrom(audioByte);
@@ -105,7 +107,7 @@ public class SocketMgr extends Thread {
                 output.write(sttresult.getBytes());
             }
         } catch (SocketException e) {
-
+            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
