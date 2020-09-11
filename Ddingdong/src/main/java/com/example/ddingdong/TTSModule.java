@@ -37,6 +37,8 @@ public class TTSModule {
 
             player.play();
 
+            textToSpeechClient.shutdownNow();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
