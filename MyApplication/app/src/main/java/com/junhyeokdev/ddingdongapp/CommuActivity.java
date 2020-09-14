@@ -23,7 +23,7 @@ public class CommuActivity extends AppCompatActivity {
         txtTts = findViewById(R.id.tts);
         txtStt = findViewById(R.id.stt);
 
-        final SocketMgr socketMgr = new SocketMgr("192.168.1.190", 2723, this);
+        final SocketMgr socketMgr = new SocketMgr("192.168.1.112", 2723, this);
         socketMgr.start();
 
         Button imageButton = (Button) findViewById(R.id.buttoncommu);
